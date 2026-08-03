@@ -4,7 +4,5 @@ Disallow: /wp-admin/
 Disallow: /wp-includes/
 Disallow: /wp-json/
 Disallow: /xmlrpc.php
-Disallow: /go/
 
 Sitemap: https://online-psychic-readers.com/sitemap.xml
-Sitemap: https://online-psychic-readers.com/es/sitemap.xml
