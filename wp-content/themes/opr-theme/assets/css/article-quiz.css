@@ -1,0 +1,21 @@
+/* CTA та мініквіз у статтях. */
+.opr-article-quiz{margin:3rem 0 0;padding:clamp(1.5rem,4vw,2.5rem);border:1px solid var(--color-border);border-radius:12px;background:#fff;box-shadow:0 12px 32px rgba(23,42,70,.07)}
+.opr-article-quiz [hidden]{display:none!important}
+.opr-article-quiz__eyebrow,.opr-article-quiz__progress{margin:0 0 .6rem;color:#75603a;font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.opr-article-quiz h2{margin:.2rem 0 1rem;font-size:clamp(1.75rem,3vw,2.35rem);line-height:1.2}
+.opr-article-quiz h3{margin:.3rem 0 1.2rem;font-size:clamp(1.4rem,2.4vw,1.8rem);line-height:1.25}
+.opr-article-quiz p{max-width:62ch;line-height:1.6}
+.opr-article-quiz button,.opr-article-quiz a{font:inherit}
+.opr-article-quiz__button,.opr-article-quiz__partner{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:48px;padding:.75rem 1.25rem;border-radius:6px;font-size:1rem;font-weight:700;text-align:center;text-decoration:none;cursor:pointer}
+.opr-article-quiz__button{border:1px solid #172a46;background:#172a46;color:#fff}
+.opr-article-quiz__button:hover{background:#2e4665;color:#fff}
+.opr-article-quiz__partner{border:1px solid #172a46;background:#fff;color:#172a46}
+.opr-article-quiz__partner:hover{background:#edf2f6;color:#172a46}
+.opr-article-quiz__step,.opr-article-quiz__result{margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--color-border)}
+.opr-article-quiz__choices,.opr-article-quiz__actions{display:flex;flex-wrap:wrap;gap:.75rem}
+.opr-article-quiz__choices button{min-height:48px;padding:.7rem 1rem;border:1px solid #b4c1cf;border-radius:6px;background:#f7fafc;color:#172a46;text-align:left;cursor:pointer}
+.opr-article-quiz__choices button:hover{border-color:#172a46;background:#edf2f6}
+.opr-article-quiz__back{display:inline-block;margin-top:1rem;padding:.4rem 0;border:0;background:none;color:#172a46;font-size:.95rem;text-decoration:underline;cursor:pointer}
+.opr-article-quiz__disclosure{margin:1rem 0 0;font-size:.82rem;color:#58687b}
+.opr-article-quiz button:focus-visible,.opr-article-quiz a:focus-visible{outline:3px solid #b78d44;outline-offset:3px}
+@media(max-width:520px){.opr-article-quiz__choices,.opr-article-quiz__actions{flex-direction:column}.opr-article-quiz__choices button,.opr-article-quiz__actions a,.opr-article-quiz__button{width:100%}}
